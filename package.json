@@ -1,0 +1,24 @@
+{
+  "name": "tormenta-adjetivos-reversos",
+  "version": "1.0.0",
+  "description": "> 🎯 Propósito: Hacer ingeniería inversa a través del código",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioedo/tormenta-adjetivos-reversos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioedo/tormenta-adjetivos-reversos/issues"
+  },
+  "homepage": "https://github.com/sergioedo/tormenta-adjetivos-reversos#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

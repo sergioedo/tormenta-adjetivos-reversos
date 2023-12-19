@@ -1,0 +1,7 @@
+server/*exe
+server/*.tar.gz
+
+node_modules
+
+statistics*.json
+words.csv
