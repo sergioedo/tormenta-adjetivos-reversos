@@ -33,7 +33,8 @@ const fetchData = async () => {
 }
 
 // const normFactor = 8.3 // v1
-const normFactor = 8.5 // v2
+// const normFactor = 8.5 // v2
+const normFactor = 8.45 // v3
 // const normFactor = 1.0
 
 const saveStatistics = async () => {
@@ -61,7 +62,7 @@ const saveStatistics = async () => {
 
 // fetchData()
 // setInterval(fetchData, 50);
-setInterval(saveStatistics, 1000);
+setInterval(saveStatistics, 60000);
 
 while (true) {
     await fetchData()
